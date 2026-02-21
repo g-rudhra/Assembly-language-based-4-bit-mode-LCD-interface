@@ -107,3 +107,5 @@ Example (distance = 123):
 ```asm
 ldi R18, 123
 rcall asciiConversionOfDistance
+ldi R28, 5
+rcall asciiConversionOfAngle
